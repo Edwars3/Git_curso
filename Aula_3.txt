@@ -1,0 +1,37 @@
+    1  git config --global user.name Edwars Rodriguez
+    2  git config --global user.name 'Edwars Rodriguez'
+    3  git config --global user.email 'edwarsrr@gmail.com'
+    4  git config user.name
+    5  mkdir Curso_Git
+    6  cd Desktop
+    7  mkdir Curso_git
+    8  cd Gurso_git
+    9  cd Curso_git
+   10  git init
+   11  git status
+   12  echo '#Aprendendo usar o Git' > readme.md
+   13  git status
+   14  git commit -m 'readme.md'
+   15  git add commit -m 'readme.md'
+   16  git status
+   17  git add readme.md
+   18  git status
+   19  git commit -m readme.md
+   20  git status
+   21  echo '##Aula 1' >> readme.md
+   22  git status
+   23  echo 'Edwars Rodriguez' > participantes.txt
+   24  git status
+   25  git add .
+   26  git status
+   27  git restore --staged participantes.txt
+   28  git status
+   29  git add participantes.txt
+   30  git restore --staged .
+   31  git status
+   32  git commit -am 'Alteração no readme'
+   33  git status
+   34  git add participantes.txt
+   35  git commit -m 'Adicionado participantes.txt'
+   36  git status
+   37  history > Aula_3.txt
