@@ -1,0 +1,121 @@
+    1  clear
+    2  git log
+    3  git log --pretty=online
+    4  git log pretty=oneline
+    5  git log --pretty=oneline
+    6  git log --stat
+    7  git log -p
+    8  git log -p -2
+    9  git log --pretty=oneline -2
+   10  git log --since=2minutes
+   11  git log --since=20.minutes
+   12  git log --since=2.weeks
+   13  git log --author='Edwars Rodriguez'
+   14  git status
+   15  touch teste
+   16  git add teste
+   17  git status
+   18  git commit -m 'Commit de teste'
+   19  git log
+   20  git reset soft-- HEAD~
+   21  git log
+   22  git reset --soft HEAD~
+   23  git log
+   24  git status
+   25  git commit -m 'Commit de teste'
+   26  git log
+   27  git reset --hard HEAD~
+   28  git log
+   29  git status
+   30  git log --pretty=oneline
+   31  git checkout HEAD~~
+   32  git status
+   33  git log
+   34  ls
+   35  git checkout master
+   36  git log
+   37  git checkout HEAD~2
+   38  git log
+   39  git status
+   40  git checkout master
+   41  git log
+   42  clear
+   43  mkdir .vscode
+   44  touch conf.txt
+   45  mv conf.txt .vscode/
+   46  ls .vscode/
+   47  ls -a
+   48  git status
+   49  echo '.vscode/' > .gitignore
+   50  git status
+   51  touch pessoal.conf
+   52  git status
+   53  echo 'pessoal.conf' >>gitignore
+   54  git status
+   55  echo 'pessoal.conf' >> .gitignore
+   56  git status
+   57  git add .gitignore
+   58  git commit -m ' Adicionado arquivo .gitignore'
+   59  git status
+   60  history > Aula_4.txt
+   61  git status
+   62  git add Aula_4.txt
+   63  git commit -m 'Comandos Aula 4'
+   64  git status
+   65  git rm --cahed 'gitignore'
+   66  git rm --cached gitignore
+   67  git status
+   68  git rm --cached 'gitignore'
+   69  git clean -fd
+   70  hystory -c: clear
+   71  history -c: clear
+   72  history c: clear
+   73  history -c: clear
+   74  history 
+   75  clear
+   76  git branch
+   77  git checkout -b feature
+   78  git branch
+   79  touch Nova-feature
+   80  git status
+   81  git add Nova_feature
+   82  git clead -fd
+   83  git clean -fd
+   84  touch Nova_feature
+   85  git status
+   86  git add.
+   87  git add .
+   88  git status
+   89  git commit -m 'Adicionando Nova Feature'
+   90  git status
+   91  git log
+   92  git checkout master
+   93  git log
+   94  touch Continuando_master
+   95  git add Continuando_master 
+   96  git commit -m 'Continuacao na master'
+   97  git log
+   98  git checkout feature
+   99  git log
+  100  git checkout -b feature2 master
+  101  git log
+  102  git checkout -d feature2
+  103  git checkout feature2
+  104  git branch -d feature2
+  105  git checkout master
+  106  git branch -d feature2
+  107  git clear
+  108  clear
+  109  git checkout feature
+  110  git log pretty=oneline --graph
+  111  git log --pretty=oneline -graph
+  112  git log --pretty=oneline --graph
+  113  git merge master
+  114  git log
+  115  git log --pretty=oneline --graph
+  116  git reset --hard HEAD~
+  117  git log
+  118  git log --pretty=oneline --graph
+  119  git rebase master
+  120  git log --pretty=oneline --graph
+  121  history > Aula_5.txt
